@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturant KEA</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Resturant KEA</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Homepage">Home</a></li>
+        <li><a href="menu.html" title="Menu Page">Menu</a></li>
+        <li><a href="contact.html" title="Contat Page">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="wrapper">
+        <section id="contact_info">
+          <img src="img/map.jpg" alt="" />
+        </section>
+        <section>
+          <address>
+            <div id="psyical-adress">
+              <p>Guldbergsgade 29N</p>
+              <p>2200 Copenhagen</p>
+            </div>
+
+            <div id="phone_email">
+              <p>
+                Phone no.:
+                <a href="tel:+4556562334" title="Call Food Repo"
+                  ><span>20 82 53 70</span></a
+                >
+              </p>
+              <p>
+                Email:
+                <a
+                  href="mailto:info@restaurantkea.dk"
+                  title="Send an email to Food Repo"
+                  ><span>info@restaurantkea.dk</span></a
+                >
+              </p>
+            </div>
+          </address>
+          <form id="frmContact">
+            <fieldset>
+              <legend>Contact form</legend>
+              <div>
+                <label for="txtName">Full Name</label>
+                <input type="text" id="txtName" required />
+              </div>
+              <div>
+                <label for="txtEmail">Email Adress</label>
+                <input type="email" id="txtEmail" required />
+              </div>
+              <div>
+                <label for="txtPersons">Persons</label>
+                <input type="number" id="txtPersons" required />
+              </div>
+              <div>
+                <label for="txtDate">Date and time</label>
+                <input type="datetime-local" id="txtDate" required />
+              </div>
+              <div>
+                <label for="txtComments">Further information</label>
+                <textarea id="txtComments" required></textarea>
+              </div>
+              <div>
+                <button type="submit">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2021-2025 KEA Development</p>
+    </footer>
+  </body>
+</html>

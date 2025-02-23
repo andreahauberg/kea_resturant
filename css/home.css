@@ -1,0 +1,65 @@
+@import "variables.css";
+
+@media (min-width: 768px) {
+  #wrapper {
+    /* display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    justify-content: space-between; */
+
+    /* > section {
+      flex: 1 0 auto;
+    } */
+    #resturant_desc {
+      display: flex;
+      flex-flow: row-reverse nowrap;
+      gap: 1rem;
+    }
+  }
+}
+
+#resturant_desc {
+  img {
+    display: block;
+    border-radius: 0.8rem;
+    width: 384px;
+    height: 243px;
+  }
+  ul {
+    padding: 1rem 0;
+
+    li {
+      list-style-type: none;
+      padding: 0.2rem 0;
+      color: var(--accentColor);
+    }
+  }
+}
+
+/* @media (min-width: 768px) {
+  #resturant_desc {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    gap: 2rem;
+
+    img {
+      order: 1;
+    }
+  }
+} */
+
+#recommandation {
+  background-color: var(--gray);
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+
+  p:last-of-type {
+    text-indent: 2rem;
+    padding-top: 0.8rem;
+
+    span {
+      font-style: italic;
+    }
+  }
+}

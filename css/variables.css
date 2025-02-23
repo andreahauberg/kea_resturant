@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800");
+
+/* &display=swap&text=ResturanKEA */
+:root {
+  --colorHeadFoot: #1f1f4d;
+  --colorHead: rgb(220, 67, 67);
+  --colorMain: black;
+  --colorBgMain: #fdfdfd;
+  --accentColor: rgb(123, 18, 18);
+  --cardColor: rgb(242, 235, 134);
+  --gray: rgb(167, 167, 167);
+  --fontMain: "Open Sans", Arial, sans-serif;
+  --fontTitle: "DynaPuff", sans-serif;
+
+  --borderRadius: 0.8rem;
+  --cardWidth: 600px;
+  --imgHeight: 243px;
+  --imgWidth: 384px;
+}

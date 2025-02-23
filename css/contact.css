@@ -1,0 +1,78 @@
+@import "variables.css";
+
+@media (min-width: 930px) {
+  main {
+    margin: 0.5rem 8rem;
+
+    #wrapper {
+      display: flex;
+      flex-flow: row-reverse nowrap;
+      gap: 1rem;
+      justify-content: space-between;
+
+      > section {
+        flex: 1;
+      }
+    }
+  }
+}
+
+address {
+  font-style: normal;
+
+  #psyical-adress {
+    margin-bottom: 1rem;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+
+#contact_info {
+  margin-bottom: 1rem;
+}
+
+#phone_email {
+  p:last-of-type {
+    margin-top: 1rem;
+  }
+}
+form {
+  margin-top: 1rem;
+
+  fieldset {
+    padding: 1rem;
+    border-radius: 1rem;
+
+    div:not(:last-of-type) {
+      margin-bottom: 0.5rem;
+
+      * {
+        display: block;
+        width: 100%;
+      }
+
+      textarea {
+        height: 6rem;
+      }
+
+      #txtPersons {
+        max-width: 4rem;
+      }
+      #txtDate {
+        max-width: 14rem;
+      }
+    }
+    button {
+      padding: 0.2rem 0.5rem;
+      font-size: 1rem;
+    }
+  }
+}
+
+img {
+  width: 100%;
+  border-radius: var(--borderRadius);
+  padding: 0.8rem;
+  border: solid 1px black;
+}
